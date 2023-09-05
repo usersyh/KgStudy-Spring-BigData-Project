@@ -26,7 +26,7 @@ public class RService {
 
 			 // Rserve에 R명령어 전송
 			c.voidEval("options(encoding = 'utf-8')");
-			c.eval("source('D:/RSudioFolder/kgStudy/mae.R')");
+			c.eval("source('D:/RSudioFolder/graph/mae.R')");
 
 			
 			c.voidEval("result <- updateSearch(" + year + ")");
@@ -60,7 +60,7 @@ public class RService {
 			c.voidEval("options(encoding = 'utf-8')");
 
 			// R스크립트 경로
-			c.eval("source('D:/RSudioFolder/kgStudy/age.R')");
+			c.eval("source('D:/RSudioFolder/graph/age.R')");
 
 			REXP result = null;
 			result = c.eval("ls()");

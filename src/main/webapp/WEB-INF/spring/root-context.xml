@@ -46,10 +46,10 @@
 	 	 <property name="locations" value="classpath:/file.properties" />
 	  </bean> -->
 	  <bean id="uploadPath" class="java.lang.String">
-	    <constructor-arg value="F:\MyProject\SpringPrj\KGStudy\src\main\resources\fileUpload"/>
+	    <constructor-arg value="C:\Users\ser\Desktop\spring_P\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\KGStudy\resources\fileUpload"/>
 	  </bean>
 	  <bean id="chartPath" class="java.lang.String">
-	    <constructor-arg value="D:/Java_DB/project_workspace_kgStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/KGStudy/resources/fileUpload/rGraph"/>
+	    <constructor-arg value="C:\Users\ser\Desktop\spring_P\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\KGStudy\resources\fileUpload\rGraph"/>
 	  </bean>
 
 	<!-- MultipartResolver -->
